@@ -22,13 +22,13 @@ namespace My.UnitTest
         
 
         [TestMethod]
-        public void Test_InputDataValid()
+        public void PositiveTest_InputDataValid()
         {
             Assert.IsNotNull(inputStringList, "Input data is null");
         }
 
         [TestMethod]
-        public void Test_InputAndOutputHaveSameNumbers()
+        public void PositiveTest_InputAndOutputHaveSameNumbers()
         {
             // Objects from DI
             var textOperation = container.Resolve<ITextOperation>();
@@ -41,7 +41,7 @@ namespace My.UnitTest
         }
 
         [TestMethod]
-        public void Test_SortedOutputHaveSameNumbers()
+        public void PositiveTest_SortedOutputHaveSameNumbers()
         {
             // Objects from DI
             var textOperation = container.Resolve<ITextOperation>();
@@ -57,7 +57,7 @@ namespace My.UnitTest
         }
 
         [TestMethod]
-        public void Test_SortedSequence()
+        public void PositiveTest_SortedSequence()
         {
             // Objects from DI
             var textOperation = container.Resolve<ITextOperation>();
