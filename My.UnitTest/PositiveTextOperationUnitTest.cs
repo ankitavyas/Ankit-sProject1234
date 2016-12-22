@@ -19,7 +19,6 @@ namespace My.UnitTest
         private List<string> inputStringList;
         private List<Customer> expectedCustomerList;
         #endregion
-
         
 
         [TestMethod]
